@@ -1,0 +1,10 @@
+services:
+  app:
+    container_name: rs-04-websockets
+    build:
+      dockerfile: .devcontainer/Dockerfile
+      context: ..
+    volumes:
+      - ..:/app
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
