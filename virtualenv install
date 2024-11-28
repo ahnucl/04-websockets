@@ -1,0 +1,11 @@
+pip install virtualenv (ou pip3 install virtualenv==20.25.0)
+
+python3 -m virtualenv venv ("venv" é o nome da pasta que será criada)
+
+source venv/bin/activate (Linux/Mac)
+
+venv/bin/activate (Windows)
+
+pip freeze => Mostra todos os pacotes instalados
+
+deactivate => sai do ambiente virtual
